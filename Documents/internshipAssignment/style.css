@@ -1,0 +1,227 @@
+body{
+    margin: 50px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    background-color: #F0EFF5;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-card{
+    display: flex;
+    position: absolute;
+}
+
+.testimonail button {
+    padding: 5px;
+    background-color: #DAEAFE;
+    color: #5996f9;
+    border: none;
+    border-radius: 1px;
+    margin-bottom: 0;
+}
+
+.testi-details span{
+    color: #4048F2;
+   
+}
+
+.testi-details p {
+    color:#727174;
+}
+
+
+.testi-details h1{
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.border-blue{
+    width: 150px;
+    margin-top: 7px;
+    border: 3px solid #4048F2;
+}
+
+
+.left-card{
+    width: 45%;
+}
+
+.clients-project svg{
+    color:#4048F2;
+}
+
+.clients-project h2{
+    margin-top: 5px;
+    color:#4048F2;
+    margin-bottom: 0;
+    font-weight: bolder;  
+}
+
+.clients-project {
+    border-right: 0.7px solid rgb(207, 206, 206);
+    padding-right: 20px;
+
+}
+
+.clients-project p{
+    font-size:0.8rem;
+    color:#727174;
+}
+
+.clients-rating{
+    display: flex;
+   
+    
+}
+
+
+
+.ratings{
+    padding-left: 40px;
+}
+.ratings svg{
+    color:#4048F2;
+  
+}
+.ratings h2{
+    
+    margin-top: 5px;
+    color:#4048F2;
+  margin-bottom: 0.8rem;
+    font-weight: bolder;  
+}
+
+.star{
+    color: orange !important;
+   
+}
+
+
+.btns{
+    display: flex;
+    gap:20px;
+    margin-top: 40px;
+}   
+
+.review{
+    background-color: #2856D9;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    padding: 8px 18px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.view{
+    background-color: #F0EFF5;
+    border:0.8px solid #494CFF;
+    color:black;
+    border-radius: 20px;
+    
+    width: 150px;
+    padding: 8px 18px;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.view svg{
+    color: #494CFF;
+}
+
+.right-card{
+
+}
+
+
+.c-img{
+    width: 40px;
+    height: 40px;
+}
+.comments{
+    width: 400px;
+    background-color: #FFFFFF;
+    padding: 10px 35px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+   
+}
+
+
+.comment2 {
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 450px;
+    
+}
+
+.whatsapp-btn{
+    position: relative;
+    background-color: #16BE45;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 16px;
+
+    top:380px;
+    left: 1080px;
+}
+
+
+@media(max-width:586px){
+    body{
+        margin: 20px 30px;
+        /* font-family: 'Times New Roman', Times, serif; */
+        background-color: #F0EFF5;
+        padding: 2rem;
+        width: 100%;
+        height: 100%;
+    
+    }
+
+  .main-card{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+
+  .left-card{
+    width: 60%;
+  }
+
+
+  .right-card{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .comments{
+    width: 300px;
+    margin-top: 20px;
+
+  }
+.comment2{
+    margin-left: 0;
+}
+ 
+
+  .whatsapp-btn{
+    left: 250px;
+    top:950px;
+    position: relative;
+  }
+    }
